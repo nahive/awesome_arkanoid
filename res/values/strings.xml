@@ -19,7 +19,7 @@
         <b>Settings</b>
     </string>
     <string name="text_about">This game is a minimalistic arkanoid. The goal is to bounce the ball of a board that you
-        control and try to destroy all blocks. It was build using libgdx engine and libgdx lights for fun. 
+        control and try to destroy all blocks. It was build using libgdx engine, box2d physics and  box2d_lights for fun. 
         Have fun!
     </string>
     <string name="game_won">You won! Nice!</string>
