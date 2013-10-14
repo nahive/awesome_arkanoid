@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Awesome Arkanoid</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_first">Awesome</string>
+    <string name="title_second">Arkanoid</string>
+    <string name="button_start">
+        <b>Start</b>
+    </string>
+    <string name="button_about">
+        <b>About</b>
+    </string>
+    <string name="button_load">Load</string>
+    <string name="button_exit">
+        <b>Exit</b>
+    </string>
+    <string name="button_settings">
+        <b>Settings</b>
+    </string>
+    <string name="text_about">This game is a minimalistic arkanoid. The goal is to bounce the ball of a board that you
+        control and try to destroy all blocks. It was build using libgdx engine and libgdx lights for fun. 
+        Have fun!
+    </string>
+    <string name="game_won">You won! Nice!</string>
+    <string name="game_lost">Better luck next time!</string>
+    <string name="level_picker_title">Choose Level</string>
+    <string name="restart">Restart Level</string>
+    <string name="back_menu">Level Menu</string>
+    <string name="next_level">Next Level</string>
+
+</resources>

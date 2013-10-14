@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+              android:gravity="center_vertical|right"
+              android:orientation="vertical"
+              android:padding="30dip">
+
+    <TextView
+            android:id="@+id/game_lost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_lost"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="45sp"/>
+
+    <Button
+            android:id="@+id/restart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/restart"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+    <Button
+            android:id="@+id/levelpicklost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/back_menu"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+</LinearLayout>

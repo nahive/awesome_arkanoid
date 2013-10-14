@@ -1,0 +1,40 @@
+
+shapes.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+blue
+  rotate: false
+  xy: 1, 13
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+green
+  rotate: false
+  xy: 1, 9
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+orange
+  rotate: false
+  xy: 5, 13
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+purple
+  rotate: false
+  xy: 1, 5
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+red
+  rotate: false
+  xy: 1, 1
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1

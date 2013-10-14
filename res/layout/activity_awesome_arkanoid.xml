@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="30dip" >
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="36dp"
+        android:background="@android:color/holo_red_light"
+        android:paddingBottom="7dip"
+        android:paddingTop="7dip"
+        android:text="@string/button_exit"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_exit"
+        android:layout_alignLeft="@+id/button_exit"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_blue_light"
+        android:paddingBottom="7dip"
+        android:paddingTop="7dip"
+        android:text="@string/button_about"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_about"
+        android:layout_alignLeft="@+id/button_about"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_orange_light"
+        android:paddingBottom="7dip"
+        android:paddingTop="7dip"
+        android:text="@string/button_settings"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_settings"
+        android:layout_alignLeft="@+id/button_settings"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/holo_green_light"
+        android:paddingBottom="7dip"
+        android:paddingTop="7dip"
+        android:text="@string/button_start"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:src="@drawable/logo_arkanoid" />
+
+</RelativeLayout>

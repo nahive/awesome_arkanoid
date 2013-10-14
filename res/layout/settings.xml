@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+    <Button
+            android:id="@+id/orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/blue"
+            android:layout_toRightOf="@+id/blue"
+            android:background="@android:color/holo_orange_light"
+            android:paddingRight="50dp"
+            android:paddingTop="25dp"/>
+
+    <Button
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/orange"
+            android:layout_alignBottom="@+id/orange"
+            android:layout_toRightOf="@+id/orange"
+            android:background="@android:color/holo_red_light"
+            android:paddingRight="50dp"
+            android:paddingTop="25dp"/>
+
+    <Button
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/red"
+            android:layout_alignBottom="@+id/red"
+            android:layout_toRightOf="@+id/red"
+            android:background="@android:color/holo_green_light"
+            android:paddingRight="50dp"
+            android:paddingTop="25dp"/>
+
+    <Button
+            android:id="@+id/purple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/green"
+            android:layout_alignBottom="@+id/green"
+            android:layout_toRightOf="@+id/green"
+            android:background="@android:color/holo_purple"
+            android:paddingRight="50dp"
+            android:paddingTop="25dp"/>
+
+    <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="133dp"
+            android:text="Choose dash color"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+    <Button
+            android:id="@+id/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/text_name"
+            android:layout_below="@+id/text_name"
+            android:layout_marginTop="127dp"
+            android:background="@android:color/holo_blue_bright"
+            android:paddingRight="50dp"
+            android:paddingTop="25dp"/>
+
+</RelativeLayout>
